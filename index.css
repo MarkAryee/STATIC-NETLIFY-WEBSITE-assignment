@@ -1,0 +1,92 @@
+
+
+
+
+body h1{
+	#position: absolute;
+	#left: 36%; 
+	#top: 35%;
+	#padding: 20px 60px;
+	
+	margin: 20% 30% 50px 30%;
+	
+	
+	
+	color: #fff;
+	font-size: 8vw;
+	border: 5px solid #000;
+	background-color: #777;
+	
+	
+	#width:50%; 
+	#height:700%;
+		
+	font-family: Cambridge;
+	text-align: center;
+	user-select: none;
+	text-shadow: 1px 0 0 #000, 0 2px 0 #000;
+	
+	#animation: textblur ease 8s;
+	animation: textfade ease 4s;
+}
+
+body{
+	
+	background-image: url(images/2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	animation: backblur ease 3s;
+}
+
+@keyframes textfade{
+	
+	
+	0%{
+		opacity: 0;
+	}
+	100%
+	{
+		opacity: 1;
+	}
+}
+
+@keyframes textblur{
+	
+	
+	0%{
+		filter: blur(10px); 
+	}
+	100%
+	{
+		filter: blur(0px); 
+	}
+}
+
+@keyframes backblur{
+	
+	
+	0%{
+		backdrop-filter: blur(7px); 
+	}
+	100%
+	{
+		backdrop-filter: blur(0px); 
+	}
+}
+
+
+p{
+	#position: absolute;
+	#left: 50%; 
+	#top: 65%;
+	
+	margin: 0px 50px 50px 45%;
+	
+	font-family: Comic Sans MS;
+	font-size: 1.2vw;
+	#width: 40%; 
+	#height: 3%;
+	
+	#animation: textfade ease 6s;
+	animation: textblur ease 5s;
+}
