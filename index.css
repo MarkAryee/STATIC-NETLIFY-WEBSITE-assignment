@@ -34,7 +34,7 @@ body{
 	
 	background-image: url(images/2.jpg);
 	background-size: cover;
-	background-repeat: repeat-y;
+	background-repeat: round;
 	animation: backblur ease 3s;
 }
 
